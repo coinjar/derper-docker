@@ -6,6 +6,7 @@ name: Docker
 # documentation.
 
 on:
+  workflow_dispatch: # Allow it to be run manually in GitHub web
   schedule:
     - cron: '49 21 * * MON'
   push:
